@@ -1,5 +1,5 @@
 {
-  "name": "@yid/utils",
+  "name": "@yuid/utils",
   "version": "1.0.0",
   "description": "a set of javascript utils with yid",
   "main": "lib/es5/index.js",
@@ -22,6 +22,9 @@
     "utilities",
     "yid"
   ],
+  "publishConfig": {
+    "registry": "https://github.com/mochamadyudi/core-ts-create-library.git"
+  },
   "scripts": {
     "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
     "test": "echo \"Error: no test specified\" && exit 1"
