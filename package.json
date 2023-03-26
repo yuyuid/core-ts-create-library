@@ -7,15 +7,31 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/mochamadyudi/core-ts-create-library.git"
   },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "utils",
+    "utilities",
+    "yid"
+  ],
   "scripts": {
     "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mochamad Yudi Sobari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mochamadyudi/core-ts-create-library/issues"
+  },
+  "homepage": "https://github.com/mochamadyudi/core-ts-create-library#readme",
   "devDependencies": {
     "typescript": "^5.0.2"
   }
